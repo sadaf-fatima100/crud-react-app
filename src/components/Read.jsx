@@ -54,7 +54,7 @@ const Read = () => {
           <button className="toggle-btn" onClick={() => setDarkMode(!darkMode)}>
             {darkMode ? "🌙 Dark" : "☀️ Light"}
           </button>
-          <Link to='/crud-react-app/' >
+          <Link to='/' >
           <button className="create-btn">Create</button></Link>
         </div>
       </div>
