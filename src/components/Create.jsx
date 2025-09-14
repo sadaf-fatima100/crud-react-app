@@ -26,11 +26,11 @@ const Create = () => {
    
   }
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     try {
       e.preventDefault();
     console.log("Form Data Submitted:", createformData);
-    handleNewPost(createformData);
+    await handleNewPost(createformData);
     // form reset after submit
     setCreateFormData({ name: "", email: "" });
       
