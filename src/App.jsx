@@ -10,7 +10,7 @@ const App = () => {
 
     <BrowserRouter>
     <Routes>
-      <Route path="/" element={<Create />} />
+      <Route path="/crud-react-app" element={<Create />} />
       <Route path="/read" element={<Read />} />
       <Route path="/update/:id" element={<Update />} />
     </Routes>
